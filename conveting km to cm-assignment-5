@@ -1,0 +1,5 @@
+kmvalue = float(input("enter the distance in kilolmeters : "))
+
+cmvalue = kmvalue * 100000
+
+print("%.2f kilometer = %.2f centimeters" %(kmvalue,cmvalue))
